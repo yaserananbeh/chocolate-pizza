@@ -1,15 +1,138 @@
+body{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+/**********************************************************************/
+/***************** Start the header style *******************************/
+/**********************************************************************/
+
+header .mainLogo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+}
+header h3{
+    font-size: 45px;
+    font-weight: 900;
+    display: inline;
+    font-family: 'Yellowtail', cursive;
+    float:left;
+    margin-right:5px;
+}
+header p{
+    display: inline;
+    letter-spacing: -1px;
+    float: left;
+    color: gray;
+    font-size: 15px;
+}
+header .contactIcons{
+    float:right;
+    margin-bottom: 20px;
+    
+}
+header .contactIcons img{
+    width: 35px;
+    height: 35px;
+    
+}
+.lastContactImg{
+    margin-right: 10px;
+}
+
+
 hr {
+    clear: both;
     display:block;
     border:0px;
-    height:10px;
+    height: 25px;
     background-image:url('../img/hr-img.png');
 }
 
+/**********************************************************************/
+/***************** Start the main *******************************/
+/**********************************************************************/
+main{
+    margin-top: 60px;
+}
+.gray{
+    color: gray;
+}
+.mainH2{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+main p.gray{
+    float: left;
+}
+.paragraphsMainContainer{
+ margin: 20px 0;
+
+}
+.paragraphsMainContainer p{
+ margin-bottom: 50px;
+ font-size: 30px;
+ text-indent: 100px;
+ color: rgb(85, 84, 84);
+}
+ul{
+    float: left;
+    margin: 0px 50px;
+}
+.listContainer{
+    height: 350px;
+    background-image: url('../img/list-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px 0;
+    padding :25px 40px;
+    font-size: 30px;
+    box-shadow: #747474 -1px 9px 5px;
+}
+.listContainer ul li{
+    margin: 25px;
+    color: rgb(92, 92, 92);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************/
+/***************** Start the footer *******************************/
+/**********************************************************************/
 .lastHr { 
     background: url('../img/small-logo.png') no-repeat top center;
     background-size: contain;
     display: block;
-    height: 18px;
+    height: 25px;
     border: 0;
     position: relative;
 }
