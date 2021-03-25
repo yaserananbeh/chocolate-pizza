@@ -6,7 +6,9 @@ body{
 /**********************************************************************/
 /***************** Start the header style *******************************/
 /**********************************************************************/
-
+header{
+    overflow: hidden;
+}
 header .mainLogo{
     width: 70px;
     height: 70px;
@@ -31,6 +33,7 @@ header p{
 header .contactIcons{
     float:right;
     margin-bottom: 20px;
+    margin-top: -35px;
     
 }
 header .contactIcons img{
@@ -44,6 +47,7 @@ header .contactIcons img{
 
 
 hr {
+    margin-top: 70px;
     clear: both;
     display:block;
     border:0px;
@@ -83,44 +87,22 @@ ul{
     margin: 0px 50px;
 }
 .listContainer{
-    height: 350px;
+    overflow: hidden;
     background-image: url('../img/list-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin:50px 0;
-    padding :25px 40px;
+    padding :40px;
     font-size: 30px;
-    box-shadow: #747474 -1px 9px 5px;
+    /* box-shadow: #747474 -1px 9px 5px; */
 }
 .listContainer ul li{
     margin: 25px;
     color: rgb(92, 92, 92);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+input[type=checkbox]:checked+ label{
+text-decoration: line-through;
+}
 
 
 
@@ -128,13 +110,49 @@ ul{
 /**********************************************************************/
 /***************** Start the footer *******************************/
 /**********************************************************************/
+
+footer img{
+    float: left;
+}
+footer h5{
+    /* float: left; */
+    font-size: 25px;
+    font-weight: 900;
+    color: gray;
+}
+footer button{
+    float: right;
+    margin: 20px;
+    background-color: rgb(218, 87, 54);
+    height: 60px;
+    width: 200px;
+    color: wheat;
+    font-size: 20px;
+    /* padding: 15px; */
+}
+.footerTxt {
+    float: left;
+    margin-left: 20px;
+}
+.footerTxt p{
+    font-size: 20px;
+    color: rgb(163, 159, 159);
+    max-width: 600px;
+}
+.footerProfile{
+margin: 60px 0 ;
+overflow: hidden;
+}
+
 .lastHr { 
+    clear: both;
     background: url('../img/small-logo.png') no-repeat top center;
     background-size: contain;
     display: block;
     height: 25px;
     border: 0;
     position: relative;
+    margin-top: 30px;
 }
 .lastHr:before,
 .lastHr:after {
@@ -147,11 +165,21 @@ ul{
 }
 .lastHr:before {
     left: 0;
-    right: 50%;
+    right: 51%;
     margin-right: 10px;
 }
 .lastHr:after {
     right: 0;
-    left: 50%;
+    left: 51%;
     margin-left: 10px;
 }
+.lastParagraphs{
+    margin-top: 30px;
+    text-align: center;
+    color: #aaa7a7;
+    font-size: 20px;
+}
+.lastParagraphs p{
+    margin: 10px;
+}
+
